@@ -5,10 +5,10 @@ import TodoItem from './TodoItem'
 class Todo extends React.Component {
     state = { 
         elements: [
-            {id:'4326346', icCompleted: true, title: 'Sranie na zawołanie'},
-            {id:'9539534', isCompleted: false, title: 'Bączenie'},
-            {id:'2905706', isCompleted: false, title: 'Wypić pącz'},
-            {id:'9827356', isCompleted: false, title: 'Nasrać do schowka'}
+            {id:'4326346', icCompleted: true, title: 'Wyprowadzić psa'},
+            {id:'9539534', isCompleted: false, title: 'Zjeść obiad'},
+            {id:'2905706', isCompleted: false, title: 'Wyjść na spacer'},
+            {id:'9827356', isCompleted: false, title: 'Przeczytać książkę'}
         ],
         inputValue: '' 
     }
